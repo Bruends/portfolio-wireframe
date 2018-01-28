@@ -1,2 +1,2 @@
-# portfolio-wireframe
-modelo de portfolio estilo one page, responsivo e com javascript puro
+layout de portfolio simples 
+html, css(sass) e javascript, sem frameworks

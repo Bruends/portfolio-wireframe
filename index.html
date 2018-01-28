@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#222222">
+  <title>Portfolio Wireframe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+
+  <!-- MENU -->
+  <header class="header-bg">
+    <div class="header-container container">
+      <div>
+        <a href="#">
+          <div>
+            <img class="logo-header" src="dist/images/logo.png" alt="Logo">
+          </div>
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#banner" class="menu__link" title="Home">Home</a></li>
+          <li><a href="#about" class="menu__link" title="sobre">sobre</a></li>
+          <li><a href="#portfolio" class="menu__link" title="portfolio">portfolio</a></li>
+          <li><a href="#contact" class="menu__link" title="contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu__toggle">
+        <a href="#" id="toggle-menu">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner" id="banner">
+    <div class="container">
+      <div class="banner-content">
+        <div class="banner-content__logo">         
+          <img class="banner-content__logo-img" src="dist/images/logo.png" alt="Logo">        
+        </div>
+
+        <h1 class="banner-content__title">
+          Titulo Principal
+        </h1>
+        <h2 class="banner-content__subtitle">
+          Subtitulo
+        </h2>
+
+        <i class="arrow fa fa-angle-down" aria-hidden="true"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="about-bg bg" id="about">
+    <div class="about-container container">
+      <article class="brief">
+        <h2 class="brief__title">Sobre</h2>
+        <p class="brief__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada arcu nulla, vitae lobortis velit consectetur hendrerit. Pellentesque sed tellus quam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada arcu nulla, vitae lobortis velit consectetur hendrerit. Pellentesque sed tellus quam.
+        </p>
+      </article>
+
+      <!-- foto -->
+      <div class="info">
+        <div class="info__photo"></div>
+        <!-- links contato -->
+        <div class="info__contact">
+          <a href="#" class="button button--small" title="github">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="#" class="button button--small" title="linkedin">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <a href="#" class="button button--small" title="currículo">
+            <i class="fa fa-file-pdf-o"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTIFOLIO -->
+  <section class="portfolio-bg bg" id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-container container" id="portfolio-container">
+      <!-- itens gerados por javascript -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <h3>Contato</h3>
+    <div class="social-cotainer">
+      <a href="https://github.com/" title="github" target="_blank">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.linkedin.com/" title="linkedin" target="_blank">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="#" title="curriculo" target="_blank">
+        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+      </a>
+    </div>
+    <p>Email: exemplo@gmail.com</p>
+    <small>Desenvolvido por Bruno Mendes</small>
+  </footer>
+  <script src="dist/js/dist.js"></script>
+</body>
+
+</html>
